@@ -1,0 +1,273 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.wrap {
+	width: 1080px;
+	margin: 0 auto;
+}
+
+.media {
+	background: #dcdcdc;
+	padding: 5px 10px;
+}
+
+.media ul {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.media a {
+	padding: 0 10px;
+	font-size: 14px;
+	display: block;
+	text-decoration: none;
+}
+
+.facebook a {
+	color: #00008b;
+	border-right: 1px solid gray;
+
+}
+
+.twitter a {
+	color: #00bfff;
+}
+
+.facebook a:hover,
+.twitter a:hover {
+	font-weight: bolder;
+}
+
+/*header樣式*/
+.header {
+	display: flex;
+	justify-content: space-between;
+	padding: 5px 0;
+}
+
+.header h1 a {
+	background: url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/logo.png);
+	display: block;
+	width: 224px;
+	height: 50px;
+	text-indent: 101%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.menu {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.menu li a {
+	padding: 15px;
+	display: block;
+	text-decoration: none;
+	color: #66cdaa;
+	border-bottom: 3px solid transparent;
+	font-weight: bold;
+}
+
+.menu li a:hover {
+	border-bottom: 3px solid  #66cdaa;
+}
+/*banner*/
+.banner{
+	background:url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/singlePage/banner.png);
+	height: 346px;
+    display: flex;
+    align-items: center;
+}
+.banner h2{
+    font-size: 36px;
+    line-height: 1.5;
+    color: #fff;
+    padding: 30px;
+    background: rgba(0,0,0,0.2);
+	width:100%;
+}
+
+/*課程*/
+.course{
+	display: flex;
+	justify-content: space-between;
+	line-height: 1.8;
+	margin-top:30px;
+	padding: 0 10px;
+
+}
+.courseItem{
+	width: 300px;
+	padding: 10px;
+	/* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 3px 5px 5px 5px  silver;
+}
+
+.courseImg{
+	height: 150px;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+.course h2{
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.courseItem ul{
+	list-style-type: disc;
+	padding-left: 40px;
+  }
+
+/*compareTable*/
+.compareTable{
+	margin-top:40px;
+}
+.compareTable table{
+	margin: 0 auto;
+}
+.compareTable h2{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+.compareTable th{
+	font-weight: bold;
+  background: #f5f5f5;
+}
